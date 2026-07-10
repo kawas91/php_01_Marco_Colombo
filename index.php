@@ -8,10 +8,7 @@ $check = true;
 var_dump($numero, $numeroVirgola, $parola, $check);
 
 
-$nome = 'Donato';
+const NOME = 'Donato';
 
-echo  "$nome \n";
+echo  NOME .  "\n";
 
-$nome = 'Andrea';
-
-echo $nome;
